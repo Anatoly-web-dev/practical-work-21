@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>JS| Практика| Модуль 21 (AJAX)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description"
+		content="Практическая работа на курсе SkillFactory 'Веб-разработчик'. Продвинутый Frontend.JavaScript. AJAX">
+	<meta name="keywords" content="SkillFactory, Веб-разработка, Frontend, JavaScript, AJAX">
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="logo">
+			<div class="logo__image">
+				<a class="logo__link" href="../index.html">
+					<img src="../img/logo.png" alt="logo">
+				</a>
+			</div>
+			<h1 class="logo__title">Модуль №21. Практика</h1>
+		</div>
+		<nav class="header__navigation">
+			<ul class="header__links">
+				<li class="header__item">
+					<a class="header__link" href="../index.html">На главную</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="../task-1/task-1.html">Задание №1</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="../task-2/task-2.html">Задание №2</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="../task-3/task-3.html">Задание №3</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="../task-4/task-4.html">Задание №4</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="../task-5/task-5.html">Задание №5</a>
+				</li>
+				<li class="header__item">
+					<a class="header__link" href="../task-6/task-6.html">Задание №6</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main class="content">
+		<section class="pictures">
+			<h2 class="pictures__title title">Задание №6</h2>
+			<div class="pictures__btn-container">
+				<div class="pictures__row">
+					<label class="pictures__label" for="page-number">Номер страницы</label>
+					<input class="pictures__input" type="text" id="page-number" name="page-number"
+						placeholder="Введите число от 1 до 10">
+				</div>
+				<div class="pictures__row">
+					<label class="pictures__label" for="limit">Лимит</label>
+					<input class="pictures__input" type="text" id="limit" name="limit"
+						placeholder="Введите число от 1 до 10">
+				</div>
+				<button class="pictures__btn">
+					<span class="pictures__btn-text">запрос</span>
+				</button>
+			</div>
+			<h3 class="pictures__subtitle subtitle"></h3>
+			<div class="pictures__gallery"></div>
+		</section>
+	</main>
+	<script src="./task-6.js"></script>
+</body>
+
+</html>
